@@ -1,0 +1,7 @@
+name = "Website"
+uuid = "597314dd-6c92-427e-8ce0-ca72e50ce058"
+authors = ["SimonDanisch <sdanisch@protonmail.com>"]
+version = "0.1.0"
+
+[deps]
+JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"

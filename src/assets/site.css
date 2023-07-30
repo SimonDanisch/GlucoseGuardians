@@ -1,0 +1,50 @@
+:root {
+    --text-color: #494e52;
+}
+
+html {
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+
+.inner-page {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outer-page {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Overwrite default font size as it is too small. */
+.hljs {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+p {
+    display: inline;
+}
